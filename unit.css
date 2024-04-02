@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: cyan;
+    
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 4rem;
+    color: black;
+	text-shadow: 0 0 8px white;
+}
+/* b{
+	text-decoration: underline;
+} */
+h2{
+	text-decoration: underline;
+	font-size: 2vw;
+	margin: 2vh 0;
+	margin-left: 0vh;
+}
+.buff{
+	padding-left: 3vw;
+}
+.ital{
+	font-style: italic;
+	margin-bottom: 10px;
+}
+.gap{
+    margin-top: 2vh;;
+}
+.example{
+    margin: 2vh 15vw 0 15vw;
+    padding-left: 2vw;;
+    font-weight: 100;
+    font-size: 1.5rem;
+	text-shadow: 0 0 8px rgb(245, 232, 199);
+    box-shadow: 0 0 30px white;
+    background-color: white;
+    border-radius: 10px;
+    /* text-align: center; */
+}
+p{
+	font-size: 1.15vw;
+}
+pre{
+	font-size: 1.25vw;
+	text-shadow: 0 0 3px rgb(245, 232, 199);
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+main{
+    color:black;
+    margin: 0vw 10vw;
+    margin-bottom: 2vh;
+}
+header{
+    position:relative;
+}
+table{
+	color:black;
+}
+td{
+	text-align:center;
+}
+.back_to_index{
+    position: absolute;
+    top: 38;
+    left: 10vw;
+    width: 10vw;
+    height: 34%;
+    display: grid;
+    place-content: center;
+	text-shadow: 0 0 0px rgb(245, 232, 199);
+	font-size: 1.5vw;
+    font-weight: 100;
+	text-transform: capitalize;
+    box-shadow: 0px 0px 10px rgb(80, 101, 158);
+    border: 2px solid black;
+    border-radius: 10px;
+    transition: ease-in .4s box-shadow,ease-in .4s background-color;
+}
+
+li{
+	margin-bottom:3vh;
+}
+.back_to_index:hover{
+    background-color: white;
+    box-shadow: 0px 0px 8px black;
+}
+.whiter ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    height:80%;
+}
+.whiter ul a{
+    width: 12%;
+    height:80%;
+    /* background-color: orange; */
+    display:grid;
+    place-content: center;
+    border:1px solid black;
+    border-radius:8px;
+	text-shadow: 0 0 10px rgb(235, 226, 226);
+    transition: ease-in .3s background-color, ease-in .3s text-shadow;
+}
+.whiter ul a:hover{
+    background-color: lightblue;
+    
+	text-shadow: 0 0 10px white;
+}
+.whiter ul li{
+	margin-bottom:0vh;
+	text-transform: uppercase;
+}
+.whiter{
+    margin: 0% 30%;
+	margin-bottom: 5%;
+	margin-top: 3%;
+    padding: 0% ;
+    width: 40%;
+    height: 9%;
+    display:flex;
+    align-items: center;
+    background-color: white;
+    border : 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0px 0px 13px black;
+
+}

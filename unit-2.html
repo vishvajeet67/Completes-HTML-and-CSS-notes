@@ -1,0 +1,132 @@
+<html>
+    <head>
+        <title>UNIT-2</title>
+        <link rel="stylesheet" href="unit.css">
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="backIndex">
+                <div class="back_to_index">
+                    Back to Index
+                </div>
+            </a>
+            
+            <h1>unit-2</h1>
+            <div class="whiter">
+                <ul>
+                    <a href="unit-1.html"><li>unit 1</li></a>
+                    <a href="unit-2.html"><li>unit 2</li></a>
+                    <a href="unit-3.html"><li>unit 3</li></a>
+                    <a href="unit-4.html"><li>unit 4</li></a>
+                    <a href="unit-5.html"><li>unit 5</li></a>
+                </ul>
+            </div>
+        </header>
+        
+        <main>
+            <h2>Creating DOM</h2><br>
+            <p class="buff"><div>Creating a DOM (Document Object Model) typically refers to dynamically generating HTML elements using JavaScript. This allows you to manipulate the structure and content of a webpage dynamically, without needing to reload the entire page from the server.</div></p><br>
+
+            <h2>DocType</h2><br>
+            <p class="buff"><div>In HTML, the &lt;!DOCTYPE&gt; declaration is used to specify the version and type of the document being served. It stands for "Document Type Declaration." This declaration is placed at the very beginning of an HTML document, before the &lt;html&gt; tag.</div></p>
+            <p class="buff gap"><div>The &lt;!DOCTYPE&gt; declaration is not an HTML tag; it's an instruction to the web browser about what type of document it is going to render. It helps the browser to render the content correctly by switching to the appropriate rendering mode.</div></p><br>
+            
+            <h2>Character Encording</h2>
+            <p class="buff"><div>
+                Character encoding is a method used in computing to represent characters from different languages and symbol sets within a document or piece of text. It's crucial for ensuring that text is displayed and interpreted correctly across different systems and software.
+            </div></p>
+            <p class="buff gap ital"><div>There are several character encoding standards, each designed to support specific languages and character sets. Some common character encoding standards include:</div></p>
+            <div class="buff">
+                <ul class="buff"><div><br>
+                    <li><b>UTF-8 (Unicode Transformation Format 8-bit):</b> UTF-8 is the most widely used character encoding on the web. It supports a wide range of characters from various languages and symbol sets, including ASCII characters. UTF-8 is backward-compatible with ASCII, meaning that ASCII characters are represented using a single byte, while characters from other scripts may use multiple bytes.</li>
+                    <li><b>UTF-16 (Unicode Transformation Format 16-bit):</b> UTF-16 represents each character in the Unicode character set with either one or two 16-bit code units. It can represent a wider range of characters than UTF-8 but may require more memory due to its use of 16-bit code units.</li>
+                    <li><b>ISO-8859-1 (Latin-1):</b> ISO-8859-1 is a character encoding standard that supports the Latin alphabet used by many Western European languages. It does not support characters from other scripts or languages.</li>
+                    <li><b>ASCII (American Standard Code for Information Interchange):</b> ASCII is one of the oldest character encoding standards and only supports characters from the English alphabet, digits, punctuation marks, and control characters.</li>
+                    <li><b>ISO-8859-, Windows-125, etc.:</b> There are several other encoding standards, each designed to support specific languages or regions.</li>
+                </ul>
+            </div><br>
+            <h2>Deprecated Elements</h2>
+            <p class="buff"><br><div>
+                Deprecated elements in HTML are those that have been officially discouraged or obsolete in the latest HTML specifications. While web browsers may still support these elements for backward compatibility, their usage is discouraged, and developers are encouraged to use modern alternatives. Deprecated elements may be removed from future HTML specifications altogether.
+            </div></p>
+            <div class="buff">
+                <ul class="buff"><br>
+                    <li>&lt;center&gt;: Used to center-align text or elements within its containing block. Instead, CSS should be used for layout and alignment, such as text-align: center for text alignment.</li>
+                    <li>&lt;font&gt;: Used to specify font size, color, and face for text. Instead, CSS should be used for styling text, such as the font-size, color, and font-family properties.</li>
+                    <li>&lt;strike&gt; and &lt;s&gt;: Used to represent strikethrough text. Instead, CSS should be used with the text-decoration property set to line-through.</li>
+                    <li>&lt;big&gt; and &lt;small&gt;: Used to adjust the size of text relative to its parent element. Instead, CSS should be used for font size adjustments.</li>
+                    <li>&lt;tt&gt;: Used to represent teletype or monospaced text. Instead, CSS should be used with the font-family property set to a monospaced font, such as font-family: monospace.</li>
+                </ul>
+            </div>
+            <h2>HTML5 Document (section, article, aside, header, footer, nav, dialog, figure)</h2>
+            <div class="buff">
+                <ul class="buff"><br>
+                    <li><b>header</b>: The &lt;header&gt; element represents introductory content, typically containing headings, logos, navigation menus, and other introductory content for its nearest ancestor sectioning content or sectioning root element. In this example, it contains the website's main heading (&lt;h1&gt;) and a navigation menu (&lt;nav&gt;).</li>
+                    <li><b>nav</b>: The &lt;nav&gt; element represents a section of the document intended for navigation links. It typically contains a list of links to other pages or sections within the website.</li>
+                    <li><b>section</b>: The &lt;section&gt; element defines a section in a document. It groups together related content and typically represents a thematic grouping of content, such as chapters, headers, footers, or any other content grouping.</li>
+                    <li><b>article</b>: The &lt;article&gt; element represents a self-contained piece of content that could be distributed and reused independently, such as a blog post, news article, forum post, or comment. It can include headings, paragraphs, images, etc.</li>
+                    <li><b>aside</b>: The &lt;aside&gt; element represents content that is tangentially related to the content around it, such as sidebars, pull quotes, or advertisements. It's typically used for content that is not the main focus of the document but provides additional context or related information.</li>
+                    <li><b>footer</b>: The &lt;footer&gt; element represents a footer for its nearest sectioning content or sectioning root element. It typically contains information such as copyright notices, contact information, or links to related documents.</li>
+                    <li><b>dialog</b>: The &lt;dialog&gt; element represents a dialog box or other interactive component. It can contain text, buttons, forms, or any other content that might appear in a dialog window.</li>
+                    <li><b>figure</b>: The &lt;figure&gt; element represents self-contained content, typically with an optional caption (&lt;figcaption&gt;). It's commonly used to encapsulate images, diagrams, illustrations, code snippets, etc., along with their captions.</li>
+                </ul>
+            </div>
+            <h2>Script Tag</h2>
+            <p class="buff"><br><div>
+                The &lt;script&gt; tag in HTML is used to include JavaScript code either directly within the tag or by referencing an external JavaScript file using the src attribute. It can be placed in the &lt;head&gt; or &lt;body&gt; section of an HTML document. The type attribute, specifying the scripting language, is optional in HTML5.
+            </div></p><br>
+            <h2>Link Tag</h2>
+            <p><br>
+                The &lt;link&gt; tag in HTML is used to link external resources such as stylesheets, favicons, and alternate documents. It is commonly used to attach CSS files to HTML documents, but it can also be used for other purposes such as defining relationships between documents or specifying the location of icons.
+            </p>
+            <p class="buff gap"><b>1. Linking CSS Stylesheets:</b> The &lt;link&gt; tag is commonly used to link external CSS stylesheets to HTML documents. This allows you to separate the presentation (CSS) from the content (HTML) of a web page.</p>
+            <div class="example">&lt;link rel="stylesheet" type="text/css" href="styles.css"&gt;</div>
+            <p class="buff gap">
+                <b>2. Defining Relationships:</b> The rel attribute specifies the relationship between the current document and the linked resource. For stylesheets, it's typically set to "stylesheet".
+            </p>
+            <p class="buff gap"><b>3. Specifying the Resource Location:</b> The href attribute specifies the URL of the linked resource (e.g., a CSS file). Relative or absolute URLs can be used.</p><br>
+            <h2>Web Forms In Detail</h2>
+            <p>Web forms are an essential part of web development, allowing users to interact with websites by submitting data, such as text inputs, checkboxes, radio buttons, and file uploads. Here's a detailed overview of web forms:</p>
+            <ul class="buff"><br>
+                <li>
+                    <p><b>HTML Form Structure:</b> Forms are created using the &lt;form&gt; element in HTML. The form element contains various types of input fields, buttons, and other elements for collecting and submitting data. The action attribute specifies the URL to which the form data should be submitted, and the method attribute specifies the HTTP method to be used (usually GET or POST).</p>
+                    <div class="example">
+                        &lt;form action="/submit-form" method="post"&gt;
+                        <p class="buff">&lt;input type="text" name="username" placeholder="Username"&gt;</p>
+                        <p class="buff">&lt;input type="password" name="password" placeholder="Password"&gt;</p>
+                        <p class="buff">&lt;button type="submit"&gt;Submit&lt;/button&gt;</p>
+                        &lt;/form&gt;
+                    </div>
+                </li>
+
+                <li>
+                    <p><b>Input Types:</b> HTML provides various input types for different kinds of data:
+                    </p>
+                    <ul class="buff"><br>
+                        <li><b>Text input:</b> &LT;input type="text"&GT;</li>
+                        <li><b>Password input:</b> &LT;input type="password"&GT;</li>
+                        <li><b>Checkbox:</b> &LT;input type="checkbox"&GT;</li>
+                        <li><b>Radio button:</b> &lt;input type="radio"&gt;</li>
+                        <li><b>File upload:</b> &lt;input type="file"&gt;</li>
+                    </ul>
+                </li>
+
+                <li>
+                    <p><b>Form Controls:</b> Apart from input fields, forms can contain other types of controls such as buttons (&lt;button&gt;, &lt;input type="button"&gt;, &lt;input type="submit"&gt;, &lt;input type="reset"&gt;), text areas (&lt;textarea&gt;), and labels (&lt;label&gt;).</p>
+                </li>
+                <li><p>
+                    <b>Form Submission:</b> When the user submits a form, the browser sends the form data to the server specified in the action attribute. The method used for submitting the data can be either GET or POST. GET appends the form data to the URL as query parameters, while POST sends the data in the request body.
+                </p></li>
+            </ul>
+        </main>
+
+        <footer>
+            <div class="whiter">
+                <ul>
+                    <a href="unit-1.html"><li>Back</li></a>
+                    <a href="unit-3.html"><li>Next</li></a>
+                </ul>
+            </div>
+        </footer>
+    </body>
+</html>

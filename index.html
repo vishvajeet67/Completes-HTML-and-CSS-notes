@@ -1,0 +1,107 @@
+<html>
+    <head>
+        <title>W&DA Notes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">  
+        <style>
+            *{
+                margin: 0;
+                padding: 0;
+            }
+            body{
+                background-color: cyan;
+                font-family: 'Algerian', sans-serif;
+            }
+            h1{
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 100;
+                font-size: 75px;
+                color: black;
+            }
+            h2{
+                text-align: center;
+                text-transform: uppercase;
+                font-weight: 50;
+                font-size: 55px;
+                color: black;
+            }
+            a{
+                text-decoration: none;
+                color:black;
+            }
+            main{
+                height: 70%;
+            }
+            header{
+                margin-bottom: 7vh;
+            }
+            footer{
+                text-align: center;
+                text-transform: capitalize;
+                color: black;
+            }
+            .chapters{
+                height: 9%;
+                width: 37vw;
+                padding: 2%;
+                margin-bottom: 2rem;
+                border-radius: 35px;
+                display:flex;
+                align-items: center;
+                justify-content: space-around;
+                text-align: center;
+                font-size: 35px;
+                box-shadow: 0px 0px 20px #3e4f6d;
+                border:2px solid black;
+                transition: ease-in .2s box-shadow,ease-in .2s background-color;
+                text-shadow: 0 0 50px cyan;
+            }
+            .chapters:hover{
+                background-color: white;
+                box-shadow: 0px 0px 12px cyan;
+            }
+            .container{
+                margin: 0 30% 2% 30%;
+            }
+            .glow{
+                text-shadow: 0px 0px 100px cyan;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h2 class="glow under"> web & digital analytics</h2>
+        </header>
+        <main>
+            <div class="container">
+                <a href="unit-1.html">
+                    <div class="chapters">Unit 1</div>
+                </a>
+            </div>
+            <div class="container">
+                <a href="unit-2.html">
+                    <div class="chapters">Unit 2</div>
+                </a>
+            </div>
+            <div class="container">
+                <a href="unit-3.html">
+                    <div class="chapters">Unit 3</div>
+                </a>
+            </div>
+            <div class="container">
+                <a href="unit-4.html">
+                    <div class="chapters">Unit 4</div>
+                </a>
+            </div>
+            <div class="container">
+                <a href="unit-5.html">
+                    <div class="chapters">Unit 5</div>
+                </a>
+            </div>
+        </main>
+        <footer>
+            <br><br>
+            <p class="glow">© Copyright 2024. All Right Reserved.</p>
+        </footer>
+    </body>
+</html>
